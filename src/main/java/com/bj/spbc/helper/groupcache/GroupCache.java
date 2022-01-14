@@ -130,7 +130,7 @@ public class GroupCache<K> {
         //JSONObject transfer string to JSONObject type
         JSONObject json = JSONObject.parseObject(rs);
 
-        return (String) json.get("msg");
+        return (String) json.get("data");
     }
 
 

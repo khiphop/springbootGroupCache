@@ -1,0 +1,18 @@
+#默认配置
+server:
+  port: 7001
+#数据源连接信息
+spring:
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://127.0.0.1:3306/user
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: rabbitmq-provider
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: kevin
+    password: 123456
+    virtual-host: /mq
